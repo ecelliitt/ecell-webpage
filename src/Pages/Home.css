@@ -1,0 +1,22 @@
+.zoom {
+    transition: transform .2s; /* Animation */
+  }
+  
+  .zoom:hover {
+    transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
+
+#vision{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  padding-left: 2.5%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  padding-right: 1%;
+  color: white;
+  font-size: x-large;
+  font-style: normal;
+  font-weight: bold;
+  margin-left: 7%;
+  right: 0%;
+
+}

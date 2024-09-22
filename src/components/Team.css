@@ -1,0 +1,42 @@
+.team-div-wrapper {
+    margin-top: 8%;
+}
+
+@media (min-width: 650px) {
+
+
+}
+
+@supports (animation-timeline: view()) {
+    @keyframes fadeIn {
+        0% {
+            opacity: 10%;
+            scale: 0.8;
+        }
+
+        50% {
+            opacity: 100%;
+            scale: 1
+        }
+
+        100% {
+            opacity: 10%;
+            scale: 0.8
+        }
+    }
+}
+
+
+/* @media (prefers-reduced-motion: no-preference) {
+      .team-div-animation {
+        animation: fadeIn 2s ease-in;
+        animation-timeline: scroll();
+        animation-range: contain;
+      }
+
+  } */
+
+.team-members {
+    display: flex;
+    flex-wrap: wrap;
+}

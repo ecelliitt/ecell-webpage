@@ -1,0 +1,35 @@
+#speakers_div{
+    margin: 5%;
+}
+#speakers_img{
+    border-radius: 50%;
+}
+
+#speaker_det{
+    background-color: #2162F6;
+    ;
+    width: 500px;
+    height: 400px;
+}
+#speaker_title{
+    padding-top: 0%;
+    color: white;
+    font-size: medium;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#speak_h1{
+    padding: 10%;
+    color: white;
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+#speaker_content{
+    color: white;
+    text-align: justify;
+    margin: 10%;
+    font-size: medium;
+
+}
