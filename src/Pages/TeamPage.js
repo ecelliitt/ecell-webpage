@@ -86,12 +86,12 @@ import punith from '../Assets/Images/Branding/punith.jpg'
 import vaibhav from '../Assets/Images/Mentors/vaibhav.jpg'
 import mihir from '../Assets/Images/Mentors/mihir.jpg'
 
-// const teams = [{ Team_name: "Events and Management", Team_members: [{ Name: "Allu Sai Kowshik", Position: "Lead", Photo: allu }, { Name: "Bhuvan D", Position: "Core Member", Photo: bhuvan }, { Name: "P Divya Sarayu Sri", Position: "Core Member", Photo: divya }, { Name: "Rishabh Arvind Pandey", Position: "Core Member", Photo: rishabh }, { Name: "Vanama Sai Srinivas", Position: "Core Member", Photo: srinivas }, { Name: "Pranesh Vijayakumar", Position: "Core Member", Photo: pranesh }] },
-// { Team_name: "Finance and Capital", Team_members: [{ Name: "Siddhant Chatse", Position: "Lead", Photo: Siddhant }, { Name: "Soham Bhagwat", Position: "Core Member", Photo: Soham }, { Name: "Nandagovind J V", Position: "Core Member", Photo: govind }, { Name: "Syed Asad Ali", Position: "Core Member", Photo: asad }] },
-// { Team_name: "Public Relations and Outreach", Team_members: [{ Name: "Vignesh Kumar", Position: "Lead", Photo: vignesh }, { Name: "B. Eesa Sathvika", Position: "Core Member", Photo: sathvika }, { Name: "Rishi Ravi", Position: "Core Member", Photo: rishi }, { Name: "Divino Adorat", Position: "Core Member", Photo: divino }, { Name: "M PRAMOD", Position: "Core Member", Photo: pramod }] },
-// { Team_name: "Branding and Promotions", Team_members: [{ Name: "Saumya Sinha", Position: "Lead", Photo: saumya}, { Name: "Nitya Srikari Kallakuri", Position: "Core Member", Photo: nitya }, { Name: "Aadhya Agrawal", Position: "Core Member", Photo: aadhya }, { Name: "Punith ", Position: "Core Member", Photo: punith }] },
-// { Team_name: "Web Operations", Team_members: [{ Name: "Prakash Pandey", Position: "Lead", Photo: prakash }, { Name: "Tilak Reddy", Position: "Core Member", Photo: tilak }, { Name: "Viramgama Jaimin", Position: "Core Member", Photo: Jaimin }] },
-// { Team_name: "Media and Engagement", Team_members: [{ Name: "Manan Chavda", Position: "Lead", Photo: manan }, { Name: "Kevin Prashan", Position: "Core Member", Photo: kevin }, { Name: " Devotio Adorat ", Position: "Core Member", Photo: devotio }, { Name: " Amit Jomy", Position: "Core Member", Photo: amit }, { Name: "Rishikesh Reddy ", Position: "Core Member", Photo: Rishikesh }] }];
+// const teams = [{ Team_name: "Events and Management", Team_members: [{ Name: "Allu Sai Kowshik", Position: "Manager", Photo: allu }, { Name: "Bhuvan D", Position: "Executive", Photo: bhuvan }, { Name: "P Divya Sarayu Sri", Position: "Executive", Photo: divya }, { Name: "Rishabh Arvind Pandey", Position: "Executive", Photo: rishabh }, { Name: "Vanama Sai Srinivas", Position: "Executive", Photo: srinivas }, { Name: "Pranesh Vijayakumar", Position: "Executive", Photo: pranesh }] },
+// { Team_name: "Finance and Capital", Team_members: [{ Name: "Siddhant Chatse", Position: "Manager", Photo: Siddhant }, { Name: "Soham Bhagwat", Position: "Executive", Photo: Soham }, { Name: "Nandagovind J V", Position: "Executive", Photo: govind }, { Name: "Syed Asad Ali", Position: "Executive", Photo: asad }] },
+// { Team_name: "Public Relations and Outreach", Team_members: [{ Name: "Vignesh Kumar", Position: "Manager", Photo: vignesh }, { Name: "B. Eesa Sathvika", Position: "Executive", Photo: sathvika }, { Name: "Rishi Ravi", Position: "Executive", Photo: rishi }, { Name: "Divino Adorat", Position: "Executive", Photo: divino }, { Name: "M PRAMOD", Position: "Executive", Photo: pramod }] },
+// { Team_name: "Branding and Promotions", Team_members: [{ Name: "Saumya Sinha", Position: "Manager", Photo: saumya}, { Name: "Nitya Srikari Kallakuri", Position: "Executive", Photo: nitya }, { Name: "Aadhya Agrawal", Position: "Executive", Photo: aadhya }, { Name: "Punith ", Position: "Executive", Photo: punith }] },
+// { Team_name: "Web Operations", Team_members: [{ Name: "Prakash Pandey", Position: "Manager", Photo: prakash }, { Name: "Tilak Reddy", Position: "Executive", Photo: tilak }, { Name: "Viramgama Jaimin", Position: "Executive", Photo: Jaimin }] },
+// { Team_name: "Media and Engagement", Team_members: [{ Name: "Manan Chavda", Position: "Manager", Photo: manan }, { Name: "Kevin Prashan", Position: "Executive", Photo: kevin }, { Name: " Devotio Adorat ", Position: "Executive", Photo: devotio }, { Name: " Amit Jomy", Position: "Executive", Photo: amit }, { Name: "Rishikesh Reddy ", Position: "Executive", Photo: Rishikesh }] }];
 
 const teams = [
     {
@@ -99,7 +99,7 @@ const teams = [
       Team_members: [
         { 
           Name: "Allu Sai Kowshik", 
-          Position: "Lead", 
+          Position: "Manager", 
           Photo: allu, 
           LinkedIn: "#", 
           Twitter: "#", 
@@ -107,7 +107,7 @@ const teams = [
         },
         { 
           Name: "Bhuvan D", 
-          Position: "Core Member", 
+          Position: "Executive", 
           Photo: bhuvan, 
           LinkedIn: "#", 
           Twitter: "#", 
@@ -115,7 +115,7 @@ const teams = [
         },
         { 
           Name: "P Divya Sarayu Sri", 
-          Position: "Core Member", 
+          Position: "Executive", 
           Photo: divya, 
           LinkedIn: "#", 
           Twitter: "#", 
@@ -123,7 +123,7 @@ const teams = [
         },
         { 
           Name: "Rishabh Arvind Pandey", 
-          Position: "Core Member", 
+          Position: "Executive", 
           Photo: rishabh, 
           LinkedIn: "#", 
           Twitter: "#", 
@@ -131,7 +131,7 @@ const teams = [
         },
         { 
           Name: "Vanama Sai Srinivas", 
-          Position: "Core Member", 
+          Position: "Executive", 
           Photo: srinivas, 
           LinkedIn: "#", 
           Twitter: "#", 
@@ -139,7 +139,7 @@ const teams = [
         },
         { 
           Name: "Pranesh Vijayakumar", 
-          Position: "Core Member", 
+          Position: "Executive", 
           Photo: pranesh, 
           LinkedIn: "#", 
           Twitter: "#", 
@@ -152,7 +152,7 @@ const teams = [
       Team_members: [
         { 
           Name: "Siddhant Chatse", 
-          Position: "Lead", 
+          Position: "Manager", 
           Photo: Siddhant, 
           LinkedIn: "#", 
           Twitter: "#", 
@@ -160,7 +160,7 @@ const teams = [
         },
         { 
           Name: "Soham Bhagwat", 
-          Position: "Core Member", 
+          Position: "Executive", 
           Photo: Soham, 
           LinkedIn: "#", 
           Twitter: "#", 
@@ -168,7 +168,7 @@ const teams = [
         },
         { 
           Name: "Nandagovind J V", 
-          Position: "Core Member", 
+          Position: "Executive", 
           Photo: govind, 
           LinkedIn: "#", 
           Twitter: "#", 
@@ -176,7 +176,7 @@ const teams = [
         },
         { 
           Name: "Syed Asad Ali", 
-          Position: "Core Member", 
+          Position: "Executive", 
           Photo: asad, 
           LinkedIn: "#", 
           Twitter: "#", 
@@ -189,7 +189,7 @@ const teams = [
       Team_members: [
         { 
           Name: "Vignesh Kumar", 
-          Position: "Lead", 
+          Position: "Manager", 
           Photo: vignesh, 
           LinkedIn: "#", 
           Twitter: "#", 
@@ -197,7 +197,7 @@ const teams = [
         },
         { 
           Name: "B. Eesa Sathvika", 
-          Position: "Core Member", 
+          Position: "Executive", 
           Photo: sathvika, 
           LinkedIn: "#", 
           Twitter: "#", 
@@ -205,7 +205,7 @@ const teams = [
         },
         { 
           Name: "Rishi Ravi", 
-          Position: "Core Member", 
+          Position: "Executive", 
           Photo: rishi, 
           LinkedIn: "#", 
           Twitter: "#", 
@@ -213,7 +213,7 @@ const teams = [
         },
         { 
           Name: "Divino Adorat", 
-          Position: "Core Member", 
+          Position: "Executive", 
           Photo: divino, 
           LinkedIn: "#", 
           Twitter: "#", 
@@ -221,7 +221,7 @@ const teams = [
         },
         { 
           Name: "M PRAMOD", 
-          Position: "Core Member", 
+          Position: "Executive", 
           Photo: pramod, 
           LinkedIn: "#", 
           Twitter: "#", 
@@ -234,7 +234,7 @@ const teams = [
       Team_members: [
         { 
           Name: "Saumya Sinha", 
-          Position: "Lead", 
+          Position: "Manager", 
           Photo: saumya, 
           LinkedIn: "#", 
           Twitter: "#", 
@@ -242,7 +242,7 @@ const teams = [
         },
         { 
           Name: "Nitya Srikari Kallakuri", 
-          Position: "Core Member", 
+          Position: "Executive", 
           Photo: nitya, 
           LinkedIn: "#", 
           Twitter: "#", 
@@ -250,7 +250,7 @@ const teams = [
         },
         { 
           Name: "Aadhya Agrawal", 
-          Position: "Core Member", 
+          Position: "Executive", 
           Photo: aadhya, 
           LinkedIn: "#", 
           Twitter: "#", 
@@ -258,7 +258,7 @@ const teams = [
         },
         { 
           Name: "Punith", 
-          Position: "Core Member", 
+          Position: "Executive", 
           Photo: punith, 
           LinkedIn: "#", 
           Twitter: "#", 
@@ -271,7 +271,7 @@ const teams = [
       Team_members: [
         { 
           Name: "Prakash Pandey", 
-          Position: "Lead", 
+          Position: "Manager", 
           Photo: prakash, 
           LinkedIn: "#", 
           Twitter: "#", 
@@ -279,7 +279,7 @@ const teams = [
         },
         { 
           Name: "Tilak Reddy", 
-          Position: "Core Member", 
+          Position: "Executive", 
           Photo: tilak, 
           LinkedIn: "#", 
           Twitter: "#", 
@@ -287,7 +287,7 @@ const teams = [
         },
         { 
           Name: "Viramgama Jaimin", 
-          Position: "Core Member", 
+          Position: "Executive", 
           Photo: Jaimin, 
           LinkedIn: "#", 
           Twitter: "#", 
@@ -300,7 +300,7 @@ const teams = [
       Team_members: [
         { 
           Name: "Manan Chavda", 
-          Position: "Lead", 
+          Position: "Manager", 
           Photo: manan, 
           LinkedIn: "#", 
           Twitter: "#", 
@@ -308,7 +308,7 @@ const teams = [
         },
         { 
           Name: "Kevin Prashan", 
-          Position: "Core Member", 
+          Position: "Executive", 
           Photo: kevin, 
           LinkedIn: "#", 
           Twitter: "#", 
@@ -316,7 +316,7 @@ const teams = [
         },
         { 
           Name: "Devotio Adorat", 
-          Position: "Core Member", 
+          Position: "Executive", 
           Photo: devotio, 
           LinkedIn: "#", 
           Twitter: "#", 
@@ -324,7 +324,7 @@ const teams = [
         },
         { 
           Name: "Amit Jomy", 
-          Position: "Core Member", 
+          Position: "Executive", 
           Photo: amit, 
           LinkedIn: "#", 
           Twitter: "#", 
@@ -332,7 +332,7 @@ const teams = [
         },
         { 
           Name: "Rishikesh Reddy", 
-          Position: "Core Member", 
+          Position: "Executive", 
           Photo: Rishikesh, 
           LinkedIn: "#", 
           Twitter: "#", 

@@ -55,7 +55,7 @@ const Home = () => {
                 </div>
             </section>
             <div className="bg-blue-700 flex justify-center w-[100%] h-[10vh]">
-                <h1 className="text-white md:mt-[2vh] mt-[3vh] absolute text-center text-2xl md:text-5xl animate-[slideinY_1.3s_ease-in]">IDEATE  |  INNOVATE  |  IMPLEMENT</h1>
+                <h1 className="text-white md:mt-[2vh] mt-[3vh] absolute text-center text-2xl md:text-5xl animate-[slideinY_0.8s_ease-in]">IDEATE  |  INNOVATE  |  IMPLEMENT</h1>
             </div>
             {/* <h2 className="text-black m-5 text-3xl font-mono">ABOUT US</h2>
             <p className="text-black m-5 md:w-2/4 text-lg animate-slidein">The morning sun cast a warm glow over the sleepy town, gently coaxing its inhabitants to rise and embrace the day. Birds chirped cheerfully, their melodies weaving through the tranquil air. In the distance, the faint aroma of freshly brewed coffee wafted from a quaint café, inviting passersby to indulge in its comforting embrace. It was a moment of quiet serenity, a pause in the hustle and bustle of life, where time seemed to slow down and the simple joys of existence took center stage.</p>
@@ -74,8 +74,8 @@ const Home = () => {
                
             </div>
             <h1 className="text-blue-700 mt-24 mb-16 text-5xl text-center font-extrabold">OUR VISION</h1>
-            <div className="w-[90%] mx-auto flex justify-between h-fit">
-                <div className="w-2/3 mx-auto"> 
+            <div className="w-[90%] mx-auto flex flex-col md:flex-row justify-between h-fit">
+                <div className="md:w-2/3 w-[95%] mx-auto"> 
                     <CCarousel controls indicators>
                         <CCarouselItem>
                             <img className="h-[500px] w-full object-cover" src={slide1}/>
@@ -97,7 +97,7 @@ const Home = () => {
                         </CCarouselItem>
                     </CCarousel>
                 </div>
-                <div className="w-1/3 bg-blue-600 rounded-r-2xl" id="vision"><p>Our vision is to enable smooth and efficient interaction between students, faculty, working professionals, aspiring and existing entrepreneurs, mentors, angel investors and venture capitalists for incubating ideas. We are a non-profit student's organization dedicated to promoting the spirit of entrepreneurship among students of IIT Tirupati and students throughout India</p></div>
+                <div className="md:w-1/3 w-[95%] md:ml-10 my-4 md:my-auto bg-blue-600 rounded-2xl md:rounded-none md:rounded-r-2xl" id="vision"><p>Our vision is to enable smooth and efficient interaction between students, faculty, working professionals, aspiring and existing entrepreneurs, mentors, angel investors and venture capitalists for incubating ideas. We are a non-profit student's organization dedicated to promoting the spirit of entrepreneurship among students of IIT Tirupati and students throughout India</p></div>
             </div>
 
             <h1 className="text-blue-700 mt-24 text-5xl text-center font-extrabold">INITIATIVES</h1>

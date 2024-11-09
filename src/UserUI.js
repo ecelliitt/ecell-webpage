@@ -5,7 +5,6 @@ import ReactDOM from 'react-dom';
 import TeamPage from './Pages/TeamPage';
 import EventsPage from './Pages/EventsPage';
 import GalleryPage from './Pages/GalleryPage';
-import BlogsPage from './Pages/BlogsPage';
 import Home from './Pages/Home';
 import { Routes, Route, Link } from 'react-router-dom';
 import Navbar from './components/navbar';
@@ -29,7 +28,6 @@ function UserUI() {
         <Route path='Team/' element={<TeamPage />}/>
         <Route path='Events/' element={<EventsPage />}/>
         <Route path='Gallery/' element={<GalleryPage />}/>
-        <Route path='Blogs/' element={<BlogsPage />} />
         <Route path='Login/' element={<Login />} />
       </Routes>
       {/* <Footer></Footer> */}
