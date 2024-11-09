@@ -17,7 +17,7 @@ const Card3 = (props) => {
                         <ul className="social-icons">
                             <li>
                                 <a href="">
-                                    <i className="ion-social-reddit-outline"></i>
+                                    <i className="ion-social-instagram-outline"></i>
                                 </a>
                             </li>
                             <li>
@@ -27,7 +27,7 @@ const Card3 = (props) => {
                             </li>
                             <li>
                                 <a href="">
-                                    <i className="ion-social-vimeo-outline"></i>
+                                    <i className="ion-social-linkedin-outline"></i>
                                 </a>
                             </li>
                         </ul>
