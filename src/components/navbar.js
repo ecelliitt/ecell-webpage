@@ -43,9 +43,9 @@ export default function Navbar() {
             </Link>
             
             <div className="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
-            <button className="bg-blue-800 text-white  transition-transform duration-300 font-bold w-fit flex flex-row justify-between py-2 mx-5 px-4 rounded-full" >
+            {/* <button className="bg-blue-800 text-white  transition-transform duration-300 font-bold w-fit flex flex-row justify-between py-2 mx-5 px-4 rounded-full" >
                     <Link to="/login" >Login/SignUp</Link>
-            </button>
+            </button> */}
               <button
                 data-collapse-toggle="navbar-sticky"
                 type="button"
@@ -71,9 +71,9 @@ export default function Navbar() {
                 <li>
                   <Link to="/Gallery" className={`block py-2 px-3 ${location.pathname=='/Gallery' && 'text-blue-800'} hover:text-blue-800`}>Gallery</Link>
                 </li>
-                <li>
+                {/* <li>
                   <Link to="/Blogs" className={`block py-2 px-3 ${location.pathname=='/Blogs' && 'text-blue-800'} hover:text-blue-800`}>Blogs</Link>
-                </li>
+                </li> */}
                 <li>
                   <Link to="/Team" className={`block py-2 px-3 ${location.pathname=='/Team' && 'text-blue-800'} hover:text-blue-800`}>Team</Link>
                 </li>

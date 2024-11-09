@@ -72,7 +72,7 @@ function EventsPage(props) {
                     numEvents++;
                     return <EventCard callPopup={callPopup} key={index}  eventName={eventinfo.name} eventInfo={eventinfo.description} img={eventinfo.photo}/>   
                 }})}
-                {numEvents==0 && <div className="mb-72 mt-12"><h1 className="text-center">No {currentEvent.split("_")[0]} events.</h1></div>}
+                {numEvents==0 && <div className="mb-[30%] mt-12"><h1 className="text-center">No {currentEvent.split("_")[0]} events.</h1></div>}
             </div>
         </>
     );

@@ -86,26 +86,275 @@ import punith from '../Assets/Images/Branding/punith.jpg'
 import vaibhav from '../Assets/Images/Mentors/vaibhav.jpg'
 import mihir from '../Assets/Images/Mentors/mihir.jpg'
 
-const teams = [{ Team_name: "Events and Management Team", Team_members: [{ Name: "Allu Sai Kowshik", Position: "Lead", Photo: allu }, { Name: "Bhuvan D", Position: "Core Member", Photo: bhuvan }, { Name: "P Divya Sarayu Sri", Position: "Core Member", Photo: divya }, { Name: "Rishabh Arvind Pandey", Position: "Core Member", Photo: rishabh }, { Name: "Vanama Sai Srinivas", Position: "Core Member", Photo: srinivas }, { Name: "Pranesh Vijayakumar", Position: "Core Member", Photo: pranesh }] },
-{ Team_name: "Finance and Capital Team", Team_members: [{ Name: "Siddhant Chatse", Position: "Lead", Photo: Siddhant }, { Name: "Soham Bhagwat", Position: "Core Member", Photo: Soham }, { Name: "Nandagovind J V", Position: "Core Member", Photo: govind }, { Name: "Syed Asad Ali", Position: "Core Member", Photo: asad }] },
-{ Team_name: "Public Relations and Outreach Team", Team_members: [{ Name: "Vignesh Kumar", Position: "Lead", Photo: vignesh }, { Name: "B. Eesa Sathvika", Position: "Core Member", Photo: sathvika }, { Name: "Rishi Ravi", Position: "Core Member", Photo: rishi }, { Name: "Divino Adorat", Position: "Core Member", Photo: divino }, { Name: "M PRAMOD", Position: "Core Member", Photo: pramod }] },
-{ Team_name: "Branding and Promotions Team", Team_members: [{ Name: "Saumya Sinha", Position: "Lead", Photo: saumya}, { Name: "Nitya Srikari Kallakuri", Position: "Core Member", Photo: nitya }, { Name: "Aadhya Agrawal", Position: "Core Member", Photo: aadhya }, { Name: "Punith ", Position: "Core Member", Photo: punith }] },
-{ Team_name: "Web Operations Team", Team_members: [{ Name: "Prakash Pandey", Position: "Lead", Photo: prakash }, { Name: "Tilak Reddy", Position: "Core Member", Photo: tilak }, { Name: "Viramgama Jaimin", Position: "Core Member", Photo: Jaimin }] },
-{ Team_name: "Media and Engagement Team", Team_members: [{ Name: "Manan Chavda", Position: "Lead", Photo: manan }, { Name: "Kevin Prashan", Position: "Core Member", Photo: kevin }, { Name: " Devotio Adorat ", Position: "Core Member", Photo: devotio }, { Name: " Amit Jomy", Position: "Core Member", Photo: amit }, { Name: "Rishikesh Reddy ", Position: "Core Member", Photo: Rishikesh }] }];
+// const teams = [{ Team_name: "Events and Management", Team_members: [{ Name: "Allu Sai Kowshik", Position: "Lead", Photo: allu }, { Name: "Bhuvan D", Position: "Core Member", Photo: bhuvan }, { Name: "P Divya Sarayu Sri", Position: "Core Member", Photo: divya }, { Name: "Rishabh Arvind Pandey", Position: "Core Member", Photo: rishabh }, { Name: "Vanama Sai Srinivas", Position: "Core Member", Photo: srinivas }, { Name: "Pranesh Vijayakumar", Position: "Core Member", Photo: pranesh }] },
+// { Team_name: "Finance and Capital", Team_members: [{ Name: "Siddhant Chatse", Position: "Lead", Photo: Siddhant }, { Name: "Soham Bhagwat", Position: "Core Member", Photo: Soham }, { Name: "Nandagovind J V", Position: "Core Member", Photo: govind }, { Name: "Syed Asad Ali", Position: "Core Member", Photo: asad }] },
+// { Team_name: "Public Relations and Outreach", Team_members: [{ Name: "Vignesh Kumar", Position: "Lead", Photo: vignesh }, { Name: "B. Eesa Sathvika", Position: "Core Member", Photo: sathvika }, { Name: "Rishi Ravi", Position: "Core Member", Photo: rishi }, { Name: "Divino Adorat", Position: "Core Member", Photo: divino }, { Name: "M PRAMOD", Position: "Core Member", Photo: pramod }] },
+// { Team_name: "Branding and Promotions", Team_members: [{ Name: "Saumya Sinha", Position: "Lead", Photo: saumya}, { Name: "Nitya Srikari Kallakuri", Position: "Core Member", Photo: nitya }, { Name: "Aadhya Agrawal", Position: "Core Member", Photo: aadhya }, { Name: "Punith ", Position: "Core Member", Photo: punith }] },
+// { Team_name: "Web Operations", Team_members: [{ Name: "Prakash Pandey", Position: "Lead", Photo: prakash }, { Name: "Tilak Reddy", Position: "Core Member", Photo: tilak }, { Name: "Viramgama Jaimin", Position: "Core Member", Photo: Jaimin }] },
+// { Team_name: "Media and Engagement", Team_members: [{ Name: "Manan Chavda", Position: "Lead", Photo: manan }, { Name: "Kevin Prashan", Position: "Core Member", Photo: kevin }, { Name: " Devotio Adorat ", Position: "Core Member", Photo: devotio }, { Name: " Amit Jomy", Position: "Core Member", Photo: amit }, { Name: "Rishikesh Reddy ", Position: "Core Member", Photo: Rishikesh }] }];
+
+const teams = [
+    {
+      Team_name: "Events and Management",
+      Team_members: [
+        { 
+          Name: "Allu Sai Kowshik", 
+          Position: "Lead", 
+          Photo: allu, 
+          LinkedIn: "#", 
+          Twitter: "#", 
+          Instagram: "#" 
+        },
+        { 
+          Name: "Bhuvan D", 
+          Position: "Core Member", 
+          Photo: bhuvan, 
+          LinkedIn: "#", 
+          Twitter: "#", 
+          Instagram: "#" 
+        },
+        { 
+          Name: "P Divya Sarayu Sri", 
+          Position: "Core Member", 
+          Photo: divya, 
+          LinkedIn: "#", 
+          Twitter: "#", 
+          Instagram: "#" 
+        },
+        { 
+          Name: "Rishabh Arvind Pandey", 
+          Position: "Core Member", 
+          Photo: rishabh, 
+          LinkedIn: "#", 
+          Twitter: "#", 
+          Instagram: "#" 
+        },
+        { 
+          Name: "Vanama Sai Srinivas", 
+          Position: "Core Member", 
+          Photo: srinivas, 
+          LinkedIn: "#", 
+          Twitter: "#", 
+          Instagram: "#" 
+        },
+        { 
+          Name: "Pranesh Vijayakumar", 
+          Position: "Core Member", 
+          Photo: pranesh, 
+          LinkedIn: "#", 
+          Twitter: "#", 
+          Instagram: "#" 
+        }
+      ]
+    },
+    {
+      Team_name: "Finance and Capital",
+      Team_members: [
+        { 
+          Name: "Siddhant Chatse", 
+          Position: "Lead", 
+          Photo: Siddhant, 
+          LinkedIn: "#", 
+          Twitter: "#", 
+          Instagram: "#" 
+        },
+        { 
+          Name: "Soham Bhagwat", 
+          Position: "Core Member", 
+          Photo: Soham, 
+          LinkedIn: "#", 
+          Twitter: "#", 
+          Instagram: "#" 
+        },
+        { 
+          Name: "Nandagovind J V", 
+          Position: "Core Member", 
+          Photo: govind, 
+          LinkedIn: "#", 
+          Twitter: "#", 
+          Instagram: "#" 
+        },
+        { 
+          Name: "Syed Asad Ali", 
+          Position: "Core Member", 
+          Photo: asad, 
+          LinkedIn: "#", 
+          Twitter: "#", 
+          Instagram: "#" 
+        }
+      ]
+    },
+    {
+      Team_name: "Public Relations and Outreach",
+      Team_members: [
+        { 
+          Name: "Vignesh Kumar", 
+          Position: "Lead", 
+          Photo: vignesh, 
+          LinkedIn: "#", 
+          Twitter: "#", 
+          Instagram: "#" 
+        },
+        { 
+          Name: "B. Eesa Sathvika", 
+          Position: "Core Member", 
+          Photo: sathvika, 
+          LinkedIn: "#", 
+          Twitter: "#", 
+          Instagram: "#" 
+        },
+        { 
+          Name: "Rishi Ravi", 
+          Position: "Core Member", 
+          Photo: rishi, 
+          LinkedIn: "#", 
+          Twitter: "#", 
+          Instagram: "#" 
+        },
+        { 
+          Name: "Divino Adorat", 
+          Position: "Core Member", 
+          Photo: divino, 
+          LinkedIn: "#", 
+          Twitter: "#", 
+          Instagram: "#" 
+        },
+        { 
+          Name: "M PRAMOD", 
+          Position: "Core Member", 
+          Photo: pramod, 
+          LinkedIn: "#", 
+          Twitter: "#", 
+          Instagram: "#" 
+        }
+      ]
+    },
+    {
+      Team_name: "Branding and Promotions",
+      Team_members: [
+        { 
+          Name: "Saumya Sinha", 
+          Position: "Lead", 
+          Photo: saumya, 
+          LinkedIn: "#", 
+          Twitter: "#", 
+          Instagram: "#" 
+        },
+        { 
+          Name: "Nitya Srikari Kallakuri", 
+          Position: "Core Member", 
+          Photo: nitya, 
+          LinkedIn: "#", 
+          Twitter: "#", 
+          Instagram: "#" 
+        },
+        { 
+          Name: "Aadhya Agrawal", 
+          Position: "Core Member", 
+          Photo: aadhya, 
+          LinkedIn: "#", 
+          Twitter: "#", 
+          Instagram: "#" 
+        },
+        { 
+          Name: "Punith", 
+          Position: "Core Member", 
+          Photo: punith, 
+          LinkedIn: "#", 
+          Twitter: "#", 
+          Instagram: "#" 
+        }
+      ]
+    },
+    {
+      Team_name: "Web Operations",
+      Team_members: [
+        { 
+          Name: "Prakash Pandey", 
+          Position: "Lead", 
+          Photo: prakash, 
+          LinkedIn: "#", 
+          Twitter: "#", 
+          Instagram: "#" 
+        },
+        { 
+          Name: "Tilak Reddy", 
+          Position: "Core Member", 
+          Photo: tilak, 
+          LinkedIn: "#", 
+          Twitter: "#", 
+          Instagram: "#" 
+        },
+        { 
+          Name: "Viramgama Jaimin", 
+          Position: "Core Member", 
+          Photo: Jaimin, 
+          LinkedIn: "#", 
+          Twitter: "#", 
+          Instagram: "#" 
+        }
+      ]
+    },
+    {
+      Team_name: "Media and Engagement",
+      Team_members: [
+        { 
+          Name: "Manan Chavda", 
+          Position: "Lead", 
+          Photo: manan, 
+          LinkedIn: "#", 
+          Twitter: "#", 
+          Instagram: "#" 
+        },
+        { 
+          Name: "Kevin Prashan", 
+          Position: "Core Member", 
+          Photo: kevin, 
+          LinkedIn: "#", 
+          Twitter: "#", 
+          Instagram: "#" 
+        },
+        { 
+          Name: "Devotio Adorat", 
+          Position: "Core Member", 
+          Photo: devotio, 
+          LinkedIn: "#", 
+          Twitter: "#", 
+          Instagram: "#" 
+        },
+        { 
+          Name: "Amit Jomy", 
+          Position: "Core Member", 
+          Photo: amit, 
+          LinkedIn: "#", 
+          Twitter: "#", 
+          Instagram: "#" 
+        },
+        { 
+          Name: "Rishikesh Reddy", 
+          Position: "Core Member", 
+          Photo: Rishikesh, 
+          LinkedIn: "#", 
+          Twitter: "#", 
+          Instagram: "#" 
+        }
+      ]
+    }
+  ];
 
 function TeamPage() {
     return (
         <>
             <div style={{ display: 'flex', textAlign: 'center', flexDirection: 'column', margin: "5%" }}>
-                <h1 className="text-blue-500 mt-8 text-5xl text-center font-extrabold">HEADS</h1>
-                <div style={{ display: 'flex', justifyContent: 'center' }}><Card3 name={"Yuvraj "} position={"Head"} photo={photo_yuvraj}></Card3>
+                <h1 className="text-blue-500 my-8 text-5xl text-center font-extrabold">HEADS</h1>
+                <div style={{ display: 'flex', justifyContent: 'center' }} className='flex-col md:flex-row'><Card3 name={"Yuvraj "} position={"Head"} photo={photo_yuvraj}></Card3>
                 <Card3 name={"Divij Gupta "} position={"Head"} photo={divij}></Card3></div>
 
-                <h1 className="text-blue-500 mt-8 text-5xl text-center font-extrabold">Mentors</h1>
-                <div style={{ display: 'flex', justifyContent: 'center' }}> <Card3 name={"Vaibhav "} position={"Mentor"} photo={vaibhav}></Card3>
+                <h1 className="text-blue-500 my-8 text-5xl text-center font-extrabold">Mentors</h1>
+                <div style={{ display: 'flex', justifyContent: 'center' }} className='flex-col md:flex-row'> <Card3 name={"Vaibhav "} position={"Mentor"} photo={vaibhav}></Card3>
                 <Card3 name={"Mihir"} position={"Mentor"} photo={mihir}></Card3></div>
 
-                {teams.map((team, index) => { return <Team team_name={team.Team_name} team_members={team.Team_members} key={index}></Team> })}
+                {teams.map((team, index) => { return <Team team_name={team.Team_name} team_description={team.Team_description} team_members={team.Team_members} key={index}></Team> })}
             </div>
         </>
     );
